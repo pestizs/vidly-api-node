@@ -1,0 +1,5 @@
+{
+    "name": "Vidly App",
+    "jwtPrivateKey": "",
+    "requiresAuth": true
+}
