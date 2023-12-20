@@ -13,8 +13,8 @@ export default function configureApp() {
 
   // Storing secrets in Environment Variables
   // $env:vidly_jwtPrivateKey=54321
-  /* if (!config.get("jwtPrivateKey")) {
+  if (!config.get("jwtPrivateKey")) {
     console.error("FATAL ERROR: jwtPrivateKey is not defined!");
     process.exit(1);
-  }*/
+  }
 }
